@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scenfic | Advanced Medical Care</title>
+  <meta name="description" content="Scenfic Medical Centre – compassionate, evidence-based healthcare. Book appointments with specialists in cardiology, neurology, pediatrics, orthopedics and more." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V6h-2v7.4l5.3 3.2 1-1.7-4.3-2.3z"/></svg>
+        Mon–Sat 8:00 AM – 8:00 PM · Emergency 24/7
+      </span>
+      <span class="topbar-right">
+        <a href="tel:+910000000000">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg>
+          +91 00000 00000
+        </a>
+        <a href="mailto:care@scenfic.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          care@scenfic.com
+        </a>
+      </span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Scenfic home">
+        <span class="logo-mark">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="12" y="4" width="8" height="24" rx="2"/><rect x="4" y="12" width="24" height="8" rx="2"/></svg>
+        </span>
+        <span class="logo-text">Scenfic<small>Medical Centre</small></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="#appointment" class="btn btn-primary nav-cta">Book Appointment</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Trusted care, backed by science</span>
+          <h1>Your health deserves <span class="accent">expert, caring</span> attention.</h1>
+          <p class="lead">At Scenfic Medical Centre, experienced specialists and modern diagnostics come together to give you accurate answers and personalised treatment — all under one roof.</p>
+          <div class="hero-actions">
+            <a href="#appointment" class="btn btn-primary btn-lg">Book an Appointment</a>
+            <a href="#services" class="btn btn-ghost btn-lg">Explore Services</a>
+          </div>
+          <ul class="hero-trust">
+            <li><strong>25+</strong><span>Specialists</span></li>
+            <li><strong>50k+</strong><span>Patients treated</span></li>
+            <li><strong>24/7</strong><span>Emergency care</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-card main-card">
+            <img src="assets/images/hero-care.jpg" alt="Scenfic doctor talking with a smiling patient during a consultation" width="1000" height="652" fetchpriority="high" />
+          </div>
+          <div class="hero-card float-card fc-1">
+            <span class="fc-icon green">
+              <svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>
+            </span>
+            <div><strong>NABH-standard</strong><small>Quality &amp; safety</small></div>
+          </div>
+          <div class="hero-card float-card fc-2">
+            <span class="fc-icon red">
+              <svg viewBox="0 0 24 24"><path d="M12 21.35 10.55 20C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </span>
+            <div><strong>98% satisfaction</strong><small>Patient reviews</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick info strip -->
+    <section class="quick-info">
+      <div class="container quick-grid">
+        <div class="quick-item reveal">
+          <span class="qi-icon"><svg viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg></span>
+          <div><h3>Easy Appointments</h3><p>Book online in under a minute and get a confirmation call.</p></div>
+        </div>
+        <div class="quick-item reveal">
+          <span class="qi-icon"><svg viewBox="0 0 24 24"><path d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zM10 4h4v2h-4V4zm6 11h-3v3h-2v-3H8v-2h3v-3h2v3h3v2z"/></svg></span>
+          <div><h3>24/7 Emergency</h3><p>Round-the-clock emergency and critical care team.</p></div>
+        </div>
+        <div class="quick-item reveal">
+          <span class="qi-icon"><svg viewBox="0 0 24 24"><path d="M19.8 18.4 14 10.67V6.5l1.35-1.69A.5.5 0 0 0 14.96 4H9.04a.5.5 0 0 0-.39.81L10 6.5v4.17L4.2 18.4A1 1 0 0 0 5 20h14a1 1 0 0 0 .8-1.6z"/></svg></span>
+          <div><h3>In-house Diagnostics</h3><p>Lab, imaging and reports — fast, accurate and on-site.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container about-inner">
+        <div class="about-visual reveal">
+          <div class="about-stat-card">
+            <span class="big">15+</span>
+            <span>Years of medical excellence</span>
+          </div>
+          <div class="about-photos">
+            <img class="ap-main" src="assets/images/about-consult.jpg" alt="Two Scenfic doctors reviewing a patient's scan together" loading="lazy" width="1000" height="667" />
+            <img class="ap-small" src="assets/images/reception.jpg" alt="Bright, modern reception area at Scenfic Medical Centre" loading="lazy" width="1000" height="681" />
+          </div>
+        </div>
+        <div class="about-copy reveal">
+          <span class="eyebrow">About Scenfic</span>
+          <h2>Science-led medicine with a human touch</h2>
+          <p>Scenfic was founded on a simple idea: great healthcare combines the latest clinical evidence with genuine compassion. Our multidisciplinary team works together on every case so you get a clear diagnosis and a treatment plan that fits your life.</p>
+          <ul class="check-list">
+            <li>Board-certified doctors across 12+ specialties</li>
+            <li>Advanced imaging, pathology and cardiac diagnostics</li>
+            <li>Transparent pricing and cashless insurance support</li>
+            <li>Digital reports and follow-ups on your phone</li>
+          </ul>
+          <a href="#appointment" class="btn btn-primary">Meet a Specialist</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our Specialties</span>
+          <h2>Comprehensive care for every stage of life</h2>
+          <p>From routine check-ups to complex procedures, our departments are equipped to care for you and your family.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span class="sc-icon"><svg viewBox="0 0 24 24"><path d="M12 21.35 10.55 20C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></span>
+            <h3>Cardiology</h3>
+            <p>ECG, echo, stress tests and complete heart-health management.</p>
+            <a href="#appointment" class="sc-link">Book consultation →</a>
+          </article>
+          <article class="service-card reveal">
+            <span class="sc-icon"><svg viewBox="0 0 24 24"><path d="M13 3a7 7 0 0 0-7 7c0 1.5.5 2.9 1.3 4L4 20h5l1-2h3a7 7 0 0 0 0-14zm2 9h-2v2h-2v-2H9v-2h2V8h2v2h2v2z"/></svg></span>
+            <h3>Neurology</h3>
+            <p>Diagnosis and care for migraines, epilepsy, stroke and nerve disorders.</p>
+            <a href="#appointment" class="sc-link">Book consultation →</a>
+          </article>
+          <article class="service-card reveal">
+            <span class="sc-icon"><svg viewBox="0 0 24 24"><path d="M12 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm-2 7h4a2 2 0 0 1 2 2v5h-2v6h-4v-6H8v-5a2 2 0 0 1 2-2z"/></svg></span>
+            <h3>Pediatrics</h3>
+            <p>Gentle, expert care for newborns, children and adolescents.</p>
+            <a href="#appointment" class="sc-link">Book consultation →</a>
+          </article>
+          <article class="service-card reveal">
+            <span class="sc-icon"><svg viewBox="0 0 24 24"><path d="M17 3a3 3 0 0 0-2.83 4l-7.17 7.17A3 3 0 1 0 9.83 17l7.17-7.17A3 3 0 1 0 17 3z"/></svg></span>
+            <h3>Orthopedics</h3>
+            <p>Joint, spine and sports-injury treatment with rehab support.</p>
+            <a href="#appointment" class="sc-link">Book consultation →</a>
+          </article>
+          <article class="service-card reveal">
+            <span class="sc-icon"><svg viewBox="0 0 24 24"><path d="M19.8 18.4 14 10.67V6.5l1.35-1.69A.5.5 0 0 0 14.96 4H9.04a.5.5 0 0 0-.39.81L10 6.5v4.17L4.2 18.4A1 1 0 0 0 5 20h14a1 1 0 0 0 .8-1.6z"/></svg></span>
+            <h3>Laboratory &amp; Pathology</h3>
+            <p>Accurate blood tests and health packages with same-day reports.</p>
+            <a href="#appointment" class="sc-link">Book a test →</a>
+          </article>
+          <article class="service-card reveal">
+            <span class="sc-icon"><svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg></span>
+            <h3>Ophthalmology</h3>
+            <p>Eye exams, cataract care and vision correction services.</p>
+            <a href="#appointment" class="sc-link">Book consultation →</a>
+          </article>
+          <article class="service-card reveal">
+            <span class="sc-icon"><svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4v4z"/></svg></span>
+            <h3>General Medicine</h3>
+            <p>Primary care, chronic disease management and preventive check-ups.</p>
+            <a href="#appointment" class="sc-link">Book consultation →</a>
+          </article>
+          <article class="service-card reveal">
+            <span class="sc-icon"><svg viewBox="0 0 24 24"><path d="M21 3H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5v2h8v-2h5a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm0 14H3V5h18v12zM5 12h3l2-4 3 7 2-3h4v-1h-4.6L13 13l-3-7-2.6 5H5z"/></svg></span>
+            <h3>Radiology &amp; Imaging</h3>
+            <p>Digital X-ray, ultrasound, CT and MRI with expert reporting.</p>
+            <a href="#appointment" class="sc-link">Book a scan →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats band -->
+    <section class="stats-band">
+      <div class="container stats-grid">
+        <div class="stat reveal"><span class="stat-num" data-count="15">0</span><span class="stat-suffix">+</span><p>Years of service</p></div>
+        <div class="stat reveal"><span class="stat-num" data-count="25">0</span><span class="stat-suffix">+</span><p>Expert doctors</p></div>
+        <div class="stat reveal"><span class="stat-num" data-count="50">0</span><span class="stat-suffix">k+</span><p>Happy patients</p></div>
+        <div class="stat reveal"><span class="stat-num" data-count="12">0</span><span class="stat-suffix">+</span><p>Specialties</p></div>
+      </div>
+    </section>
+
+    <!-- Doctors -->
+    <section class="section doctors" id="doctors">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our Team</span>
+          <h2>Meet our specialists</h2>
+          <p>Experienced, compassionate doctors dedicated to your well-being.</p>
+        </div>
+        <div class="doctors-grid">
+          <article class="doctor-card reveal">
+            <img class="doc-photo" src="assets/images/doctor-ananya.jpg" alt="Dr. Ananya Sharma" loading="lazy" />
+            <h3>Dr. Ananya Sharma</h3>
+            <span class="doc-role">Cardiologist</span>
+            <p>MD, DM (Cardiology) · 14 yrs experience</p>
+            <a href="#appointment" class="btn btn-outline btn-sm" data-doctor="Dr. Ananya Sharma">Book</a>
+          </article>
+          <article class="doctor-card reveal">
+            <img class="doc-photo" src="assets/images/doctor-rahul.jpg" alt="Dr. Rahul Kapoor" loading="lazy" />
+            <h3>Dr. Rahul Kapoor</h3>
+            <span class="doc-role">Neurologist</span>
+            <p>MD, DM (Neurology) · 11 yrs experience</p>
+            <a href="#appointment" class="btn btn-outline btn-sm" data-doctor="Dr. Rahul Kapoor">Book</a>
+          </article>
+          <article class="doctor-card reveal">
+            <img class="doc-photo" src="assets/images/doctor-priya.jpg" alt="Dr. Priya Menon" loading="lazy" />
+            <h3>Dr. Priya Menon</h3>
+            <span class="doc-role">Pediatrician</span>
+            <p>MD (Pediatrics) · 9 yrs experience</p>
+            <a href="#appointment" class="btn btn-outline btn-sm" data-doctor="Dr. Priya Menon">Book</a>
+          </article>
+          <article class="doctor-card reveal">
+            <img class="doc-photo" src="assets/images/doctor-vikram.jpg" alt="Dr. Vikram Singh" loading="lazy" />
+            <h3>Dr. Vikram Singh</h3>
+            <span class="doc-role">Orthopedic Surgeon</span>
+            <p>MS (Ortho) · 16 yrs experience</p>
+            <a href="#appointment" class="btn btn-outline btn-sm" data-doctor="Dr. Vikram Singh">Book</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Gallery</span>
+          <h2>Inside Scenfic Medical Centre</h2>
+          <p>Take a look at our facilities, our care teams at work and our diagnostic departments.</p>
+        </div>
+
+        <div class="gallery-filters reveal" role="group" aria-label="Filter gallery">
+          <button class="gf-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button class="gf-btn" data-filter="facility" aria-pressed="false">Facilities</button>
+          <button class="gf-btn" data-filter="care" aria-pressed="false">Patient Care</button>
+          <button class="gf-btn" data-filter="diagnostics" aria-pressed="false">Diagnostics</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <figure class="g-item wide" data-cat="facility"><img src="assets/images/hospital-building.jpg" alt="Scenfic Medical Centre building exterior" loading="lazy" /><figcaption>Our Campus</figcaption></figure>
+          <figure class="g-item" data-cat="facility"><img src="assets/images/operation-theatre.jpg" alt="Modern operation theatre" loading="lazy" /><figcaption>Operation Theatre</figcaption></figure>
+          <figure class="g-item tall" data-cat="diagnostics"><img src="assets/images/laboratory.jpg" alt="Lab technician working at a microscope" loading="lazy" /><figcaption>Pathology Lab</figcaption></figure>
+          <figure class="g-item" data-cat="care"><img src="assets/images/checkup.jpg" alt="Nurse checking a patient's blood pressure" loading="lazy" /><figcaption>Routine Check-ups</figcaption></figure>
+          <figure class="g-item" data-cat="facility"><img src="assets/images/patient-ward.jpg" alt="Clean, bright patient ward" loading="lazy" /><figcaption>Patient Ward</figcaption></figure>
+          <figure class="g-item" data-cat="care"><img src="assets/images/surgical-team.jpg" alt="Surgical team looking down at the patient under theatre lights" loading="lazy" /><figcaption>Surgical Team</figcaption></figure>
+          <figure class="g-item tall" data-cat="diagnostics"><img src="assets/images/cardiology.jpg" alt="Anatomical heart model" loading="lazy" /><figcaption>Cardiac Care</figcaption></figure>
+          <figure class="g-item" data-cat="care"><img src="assets/images/ward-round.jpg" alt="Doctor talking with a patient during a ward round" loading="lazy" /><figcaption>Ward Rounds</figcaption></figure>
+          <figure class="g-item" data-cat="facility"><img src="assets/images/reception.jpg" alt="Hospital reception desk" loading="lazy" /><figcaption>Reception</figcaption></figure>
+          <figure class="g-item wide" data-cat="care"><img src="assets/images/surgery.jpg" alt="Surgeons performing an operation" loading="lazy" /><figcaption>Advanced Surgery</figcaption></figure>
+          <figure class="g-item" data-cat="diagnostics"><img src="assets/images/neurology.jpg" alt="Anatomical brain model" loading="lazy" /><figcaption>Neurology</figcaption></figure>
+          <figure class="g-item tall" data-cat="diagnostics"><img src="assets/images/xray.jpg" alt="Hand X-ray on a viewing screen" loading="lazy" /><figcaption>Digital X-ray</figcaption></figure>
+          <figure class="g-item" data-cat="facility"><img src="assets/images/procedure-room.jpg" alt="Equipped procedure room" loading="lazy" /><figcaption>Procedure Room</figcaption></figure>
+          <figure class="g-item" data-cat="care"><img src="assets/images/compassion.jpg" alt="Caregiver holding a patient's hand" loading="lazy" /><figcaption>Compassionate Care</figcaption></figure>
+          <figure class="g-item" data-cat="diagnostics"><img src="assets/images/pharmacy.jpg" alt="Medicine vials in the pharmacy" loading="lazy" /><figcaption>In-house Pharmacy</figcaption></figure>
+          <figure class="g-item" data-cat="care"><img src="assets/images/digital-health.jpg" alt="Doctor using a smartphone for digital reports" loading="lazy" /><figcaption>Digital Reports</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+      <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+      <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image">&#8249;</button>
+      <figure class="lb-figure">
+        <img id="lbImg" src="" alt="" />
+        <figcaption id="lbCaption"></figcaption>
+      </figure>
+      <button class="lb-nav lb-next" id="lbNext" aria-label="Next image">&#8250;</button>
+    </div>
+
+    <!-- Appointment -->
+    <section class="section appointment" id="appointment">
+      <div class="container appt-inner">
+        <div class="appt-copy reveal">
+          <span class="eyebrow light">Book an Appointment</span>
+          <h2>Schedule your visit in minutes</h2>
+          <p>Fill in your details and our care team will call you to confirm a convenient time slot.</p>
+          <ul class="appt-points">
+            <li><strong>Mon – Sat</strong><span>8:00 AM – 8:00 PM</span></li>
+            <li><strong>Sunday</strong><span>9:00 AM – 1:00 PM</span></li>
+            <li><strong>Emergency</strong><span>Open 24 hours</span></li>
+          </ul>
+        </div>
+
+        <form class="appt-form reveal" id="appointmentForm" novalidate>
+          <div class="form-row">
+            <label>Full name
+              <input type="text" name="name" placeholder="Your full name" required />
+            </label>
+            <label>Phone number
+              <input type="tel" name="phone" placeholder="+91 98765 43210" required pattern="[0-9+\-\s]{8,}" />
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Email
+              <input type="email" name="email" placeholder="you@example.com" />
+            </label>
+            <label>Preferred date
+              <input type="date" name="date" id="apptDate" required />
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Department
+              <select name="department" required>
+                <option value="">Select department</option>
+                <option>Cardiology</option>
+                <option>Neurology</option>
+                <option>Pediatrics</option>
+                <option>Orthopedics</option>
+                <option>Ophthalmology</option>
+                <option>General Medicine</option>
+                <option>Laboratory &amp; Pathology</option>
+                <option>Radiology &amp; Imaging</option>
+              </select>
+            </label>
+            <label>Doctor (optional)
+              <select name="doctor" id="doctorSelect">
+                <option value="">Any available doctor</option>
+                <option>Dr. Ananya Sharma</option>
+                <option>Dr. Rahul Kapoor</option>
+                <option>Dr. Priya Menon</option>
+                <option>Dr. Vikram Singh</option>
+              </select>
+            </label>
+          </div>
+          <label>Message (optional)
+            <textarea name="message" rows="3" placeholder="Briefly describe your symptoms or reason for visit"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary btn-block btn-lg">Request Appointment</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Patient Stories</span>
+          <h2>What our patients say</h2>
+        </div>
+        <div class="testi-grid">
+          <figure class="testi-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>“The cardiology team explained everything clearly and my treatment plan was ready the same day. Truly world-class care.”</blockquote>
+            <figcaption><span class="t-avatar">MK</span><div><strong>Mohan K.</strong><small>Cardiology patient</small></div></figcaption>
+          </figure>
+          <figure class="testi-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>“Dr. Menon is wonderful with kids. My daughter actually looks forward to her check-ups now!”</blockquote>
+            <figcaption><span class="t-avatar">SR</span><div><strong>Sneha R.</strong><small>Parent</small></div></figcaption>
+          </figure>
+          <figure class="testi-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>“Booking was effortless, there was hardly any wait, and my lab reports arrived on my phone in a few hours.”</blockquote>
+            <figcaption><span class="t-avatar">AJ</span><div><strong>Arjun J.</strong><small>Diagnostics patient</small></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq">
+      <div class="container faq-inner">
+        <div class="section-head left reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently asked questions</h2>
+          <p>Can't find what you're looking for? Call us any time.</p>
+        </div>
+        <div class="faq-list reveal">
+          <details>
+            <summary>Do I need an appointment, or can I walk in?</summary>
+            <p>Walk-ins are welcome, but booking ahead guarantees your slot and reduces waiting time. Emergencies are seen immediately, 24/7.</p>
+          </details>
+          <details>
+            <summary>Which insurance providers do you accept?</summary>
+            <p>We work with most major insurers and TPAs and offer cashless treatment. Contact our front desk with your policy details to confirm.</p>
+          </details>
+          <details>
+            <summary>How will I receive my test reports?</summary>
+            <p>Reports are shared securely via SMS/email link, and printed copies are available at the centre.</p>
+          </details>
+          <details>
+            <summary>Do you offer online consultations?</summary>
+            <p>Yes. Many of our specialists offer video consultations for follow-ups and second opinions.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-cards">
+          <div class="contact-card reveal">
+            <span class="cc-icon"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span>
+            <h3>Visit us</h3>
+            <p>Scenfic Medical Centre<br />[Street address], [City] – [PIN]</p>
+          </div>
+          <div class="contact-card reveal">
+            <span class="cc-icon"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg></span>
+            <h3>Call us</h3>
+            <p><a href="tel:+910000000000">+91 00000 00000</a><br />Emergency: <a href="tel:+910000000001">+91 00000 00001</a></p>
+          </div>
+          <div class="contact-card reveal">
+            <span class="cc-icon"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg></span>
+            <h3>Email us</h3>
+            <p><a href="mailto:care@scenfic.com">care@scenfic.com</a><br />We reply within 24 hours</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Emergency CTA -->
+    <section class="emergency">
+      <div class="container emergency-inner reveal">
+        <div>
+          <h2>Medical emergency?</h2>
+          <p>Our emergency department is open 24 hours a day, 7 days a week.</p>
+        </div>
+        <a href="tel:+910000000001" class="btn btn-white btn-lg">Call Emergency</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo light">
+          <span class="logo-mark">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="12" y="4" width="8" height="24" rx="2"/><rect x="4" y="12" width="24" height="8" rx="2"/></svg>
+          </span>
+          <span class="logo-text">Scenfic<small>Medical Centre</small></span>
+        </a>
+        <p>Compassionate, evidence-based healthcare for you and your family.</p>
+      </div>
+      <div>
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#appointment">Appointments</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Specialties</h4>
+        <ul>
+          <li><a href="#services">Cardiology</a></li>
+          <li><a href="#services">Neurology</a></li>
+          <li><a href="#services">Pediatrics</a></li>
+          <li><a href="#services">Orthopedics</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Opening hours</h4>
+        <ul class="hours">
+          <li><span>Mon – Sat</span><span>8 AM – 8 PM</span></li>
+          <li><span>Sunday</span><span>9 AM – 1 PM</span></li>
+          <li><span>Emergency</span><span>24/7</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Scenfic Medical Centre. All rights reserved.</p>
+      <p class="disclaimer">Information on this website is for general awareness and is not a substitute for professional medical advice.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24"><path d="M7.4 15.4 12 10.8l4.6 4.6L18 14l-6-6-6 6z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
